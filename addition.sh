@@ -1,14 +1,13 @@
 #!/bin/bash
 
-# Ask user for first number
-echo "Enter first number:20"
+# Ask user for minuend
+echo "Enter minuend:55 "
 
-# Ask user for second number
-echo "Enter second number:30"
- 
+# Ask user for subtrahend
+echo "Enter subtrahend:25 "
 
-# Perform addition
-sum=$((20 + 30))
+# Perform subtraction
+difference=$((55 - 25))
 
 # Display result
-echo "Sum: $sum"
+echo "Difference: $difference"
